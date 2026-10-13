@@ -15,7 +15,7 @@
 </div>
 <div class="viewerFrame" id="viewer" aria-label="画像を指で塗り分ける領域"><canvas id="drawing" width="340" height="340"></canvas></div>
 <div class="panel"><div class="tools"><label>タイル番号（0〜120）<input id="tile" type="number" min="0" max="120" value="0"></label><button type="button" id="jump">移動</button><button type="button" id="nextTile">次のタイル</button></div>
-<p class="muted">線で囲むのではなく、見えている部分を分類して塗ってね。2本指で拡大・移動できます。顔の目・鼻・口は個別に描かない。分からない所は「判別できない」。</p>
+<p class="muted">線で囲むのではなく、見えている部分を分類して塗ってね。2本指で移動、拡大は上の倍率スライダーから変更できます。顔の目・鼻・口は個別に描かない。分からない所は「判別できない」。</p>
 <div class="actions"><button type="button" id="shareDraft" class="primary">② JSONを「ファイル」に保存・共有</button><button type="button" id="downloadDraft">JSONをダウンロード</button></div>
 <label class="fileButton">途中保存したJSONを読み込む<input id="draftFile" type="file" accept=".json,application/json"></label>
 <div class="actions"><button type="button" id="clear">全ラベルを消去</button></div>
